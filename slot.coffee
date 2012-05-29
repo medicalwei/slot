@@ -12,7 +12,7 @@ ACCELERATION_BASE = 0.01
 ACCELERATION_RANDOM = 0.01
 STOP_DELAY= 200
 
-DUMMY_IMAGES = 4
+DUMMY_IMAGES = 2
 
 #
 # offset should be relative to wheel height
