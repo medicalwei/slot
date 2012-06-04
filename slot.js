@@ -62,7 +62,7 @@
       this.ctx.restore();
       this.ctx.save();
       this.ctx.translate(0, WHEEL_HEIGHT);
-      this.drawTag(this.tagImageWhite[mod(number + 1, this.tagImageWhite.length)]);
+      this.drawTag(this.tagImageWhite[mod(number - 1, this.tagImageWhite.length)]);
       this.ctx.restore();
       return this.ctx.restore();
     };

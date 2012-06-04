@@ -50,7 +50,7 @@ class Wheel
     @ctx.restore()
     @ctx.save()
     @ctx.translate 0, WHEEL_HEIGHT
-    @drawTag @tagImageWhite[mod(number+1, @tagImageWhite.length)]
+    @drawTag @tagImageWhite[mod(number-1, @tagImageWhite.length)]
     @ctx.restore()
     @ctx.restore()
 
